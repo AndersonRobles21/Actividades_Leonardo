@@ -1,0 +1,28 @@
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: repeating-linear-gradient(
+    to right,
+    white 0px,
+    white 20px,
+    red 30px,
+    red 160px
+  );
+}
+
+
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border-right: 5px solid #333; 
+  padding: 8px;
+}
+
+tr td:last-child, tr th:last-child {
+  border-right: none;
+}
+
